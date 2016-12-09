@@ -178,11 +178,10 @@ http://mb.cloud.nifty.com/
 ![code_API](/readme-img/code_API.png)
 
 * mBaaS のダッシュボードから、APIキー（アプリケーションキーとクライアントキー）をコピーして、それぞれ`YOUR_NCMB_APPLICATION_KEY`と`YOUR_NCMB_CLIENT_KEY`に貼り付けます
+* このとき、ダブルクォーテーション「`"`」は消さないように注意しましょう
 * APIキーはmBaaSのダッシュボードで「アプリ設定」＞「基本」で確認できます
 
 ![SDKの初期化](/readme-img/SDKの初期化.png)
-
-* このとき、ダブルクォーテーション「`"`」は消さないように注意しましょう
 
 #### 3. 読み込むJavaScriptファイルの変更
 * 同じく`www/index.html`を編集します
