@@ -45,7 +45,7 @@ layout: false
 ## 概要
 Monacaとニフティクラウド mobile backendを使うことで、**既存のWebコンテンツも簡単にスマホアプリ化することが可能** です。ここではその手順を解説します。
 
-.center[![Webコンテンツのスマホアプリ化イメージ](document-img/Webコンテンツのスマホアプリ化イメージ.png)]
+.center[![Webコンテンツのスマホアプリ化イメージ](document-img/WebContentsApp.png)]
 .center[
 __▼ 資料はこちらから入手できます ▼__
 
@@ -64,7 +64,7 @@ __.size_large_18[https://goo.gl/aEvQma]__
  * お気に入り情報をクラウドに保存します
 * アプリ側は「Monaca」を、バックエンド側は「mBaaS」を使用して簡単に実装します
 
-.center[![Webコンテンツのスマホアプリ化イメージ](document-img/Webコンテンツのスマホアプリ化イメージ.png)]
+.center[![Webコンテンツのスマホアプリ化イメージ](document-img/WebContentsApp.png)]
 
 ---
 .footnote_right[
@@ -73,7 +73,7 @@ __.size_large_18[https://goo.gl/aEvQma]__
 ### Monacaって何？
 * __もなか 【[Monaca](https://ja.monaca.io/)】__ HTML5/JavaScript/CSS3でスマホアプリが開発できる開発環境。開発スタイル／コーディング環境は選択可能。
 
-.center[![Monacaとは？](document-img/Monacaとは.png)]
+.center[![Monacaとは？](document-img/AboutMonaca.png)]
 
 ---
 .footnote_right[
@@ -82,7 +82,7 @@ __.size_large_18[https://goo.gl/aEvQma]__
 ### ニフティクラウド mobile backend って何？
 * __にふてぃくらうど-もばいる-ばっくえんど 【[ニフティクラウド mobile backend](http://mb.cloud.nifty.com/about.htm)】__ スマートフォンアプリに必要なバックエンド機能が開発不要で利用できるクラウドサービス。 クラウド上に用意された機能をAPIで呼び出すだけで利用できます。また、APIを簡単に使うためのSDKを用意しています（ iOS / Android / Monaca / Unity ）。mobile Backend as a Service の頭文字を取って、通称 **mBaaS** 呼ばれます。
 
-.center[![mBaaSとは？](document-img/mBaaSとは.png)]
+.center[![mBaaSとは？](document-img/About_mBaaS.png)]
 
 ---
 .footnote_right[
@@ -92,7 +92,7 @@ __.size_large_18[https://goo.gl/aEvQma]__
 ### Monaca と mBaaS で<br>サーバー連携アプリは簡単に実現可能に
 この２つを組み合わせると、高度なアプリも簡単スピーディーに開発できます
 
-.center[![Monaca×mBaaS](document-img/Monaca×mBaaS.png)]
+.center[![Monaca×mBaaS](document-img/Monaca_mBaaS.png)]
 
 .left-column[
 __《アプリ側》Monaca のすごいところ__
@@ -165,7 +165,7 @@ layout: false
 ### 1. Monaca準備
 * Monacaにログインをします
 
-.center[![Monaca準備1](document-img/Monaca準備1.png)]
+.center[![Monaca準備1](document-img/Monaca_1.png)]
 https://ja.monaca.io/
 
 ---
@@ -182,7 +182,7 @@ https://ja.monaca.io/
 
 　　　`https://github.com/natsumo/MonacaRssReaderApp/archive/master.zip`
 
-.center[![Monaca準備2](document-img/Monaca準備2.png)]
+.center[![Monaca準備2](document-img/Monaca_2.png)]
 
 ---
 .footnote_right[
@@ -194,7 +194,7 @@ https://ja.monaca.io/
 * プロジェクトが作成さてたら、「開く」をクリックします
 * プロジェクトが開かれます
 
-.center[![Monaca準備3](document-img/Monaca準備3.png)]
+.center[![Monaca準備3](document-img/Monaca_3.png)]
 
 これでMonacaの準備は完了です
 
@@ -205,7 +205,7 @@ https://ja.monaca.io/
 ]
 ]
 ### 2. 動作確認① MonacaでRSSリーダーを体験
-.center[![動作確認①-1](document-img/動作確認①-1.png)]
+.center[![動作確認①-1](document-img/check1-1.png)]
 
 ---
 .footnote_right[
@@ -217,7 +217,7 @@ https://ja.monaca.io/
 
 何も変更せずにMonacaデバッガーで動かしてみましょう。mBaaSのブログ（mBaaS活用術）が表示されます。
 
-.center[![動作確認①-2](document-img/動作確認①-2.png)]
+.center[![動作確認①-2](document-img/check1-2.png)]
 
 * 星のマークをタップするとお気に入りの ON/OFF ができます
 
@@ -231,7 +231,7 @@ https://ja.monaca.io/
 
 お気に入りの情報はスマホのローカルストレージに保存されています。したがって、「お気に入り」情報は、自分にしか見られません。また、機種変更したら見られなくなってしまいます。
 
-.center[![動作確認①-3](document-img/動作確認①-3.png)]
+.center[![動作確認①-3](document-img/check1-3.png)]
 
 ---
 .footnote_right[
@@ -244,7 +244,7 @@ https://ja.monaca.io/
 * 自分のお気に入り情報をサーバーに上げて、共有する
 * 他の人がどれくらいお気に入り登録しているかどうか
 
-.center[![完成イメージ1](document-img/完成イメージ1.png)]
+.center[![完成イメージ1](document-img/complete_image_1.png)]
 
 ---
 .footnote_right[
@@ -255,7 +255,7 @@ https://ja.monaca.io/
 ### 3. mBaaS準備
 * mBaaS にログインします
 
-.center[![mBaaS準備1](document-img/mBaaS準備1.png)]
+.center[![mBaaS準備1](document-img/mBaaS_1.png)]
 http://mb.cloud.nifty.com/
 
 ---
@@ -268,11 +268,11 @@ http://mb.cloud.nifty.com/
 * 新しいアプリを作成します
 * アプリ名を入力し、「新規作成」をクリックします　例）.color_blue[__RSSReader__]
 
-.center[![mBaaS準備2-1](document-img/mBaaS準備2-1.png)]
+.center[![mBaaS準備2-1](document-img/mBaaS_2-1.png)]
 
 * mBaaSを既に使用したことがある場合は、画面上方のメニューバーにある「+新しいアプリ」をクリックすると同じ画面が表示されます
 
-.center[![mBaaS準備2-2](document-img/mBaaS準備2-2.png)]
+.center[![mBaaS準備2-2](document-img/mBaaS_2-2.png)]
 
 ---
 .footnote_right[
@@ -285,7 +285,7 @@ http://mb.cloud.nifty.com/
  * APIキーは後で使用します。
 * ここでは使用しないので、「OK」で閉じます
 
-.center[![mBaaS準備3](document-img/mBaaS準備3.png)]
+.center[![mBaaS準備3](document-img/mBaaS_3.png)]
 
 ---
 .footnote_right[
@@ -296,7 +296,7 @@ http://mb.cloud.nifty.com/
 <br>
 * ダッシュボードが表示されます
 
-.center[![mBaaS準備4](document-img/mBaaS準備4.png)]
+.center[![mBaaS準備4](document-img/mBaaS_4.png)]
 
 * これでmBaaSの準備は完了です
 
@@ -308,7 +308,7 @@ http://mb.cloud.nifty.com/
 ]
 ### 4. お気に入り機能をオンライン化する
 完成イメージ
-.center[![完成イメージ2](document-img/完成イメージ2.png)]
+.center[![完成イメージ2](document-img/complete_image_2.png)]
 
 ---
 .footnote_right[
@@ -343,7 +343,7 @@ http://mb.cloud.nifty.com/
 #### 作業手順
 ]
 <br>
-.center[![作業手順](document-img/作業手順.png)]
+.center[![作業手順](document-img/process.png)]
 
 ---
 .footnote_right[
@@ -356,7 +356,7 @@ http://mb.cloud.nifty.com/
 ]
 * Monacaを開きます
 * 上部メニューバーから「設定」＞「JS/CSSコンポーネントの追加と削除...」をクリックします
-.center[![SDK導入1](document-img/SDK導入1.png)]
+.center[![SDK導入1](document-img/SDK_introduction_1.png)]
 
 ---
 .footnote_right[
@@ -367,7 +367,7 @@ http://mb.cloud.nifty.com/
 <br><br>
 * 「インストールしたコンポーネント」の右のテキストフィールドに「`ncmb`」と入力し、「検索」をクリックします
 
-.center[![SDK導入2](document-img/SDK導入2.png)]
+.center[![SDK導入2](document-img/SDK_introduction_2.png)]
 
 ---
 .footnote_right[
@@ -379,7 +379,7 @@ http://mb.cloud.nifty.com/
 * SDKのバージョンはそのまま（最新版を指定）で、「インストールの開始」をクリックします
 * 「ローダーの設定」で「`components/ncmb/ncmb.min.js`」のチェックボックスにチェックを入れて「OK」をクリックします
 
-.center[![SDK導入3](document-img/SDK導入3.png)]
+.center[![SDK導入3](document-img/SDK_introduction_3.png)]
 
 ---
 .footnote_right[
@@ -390,7 +390,7 @@ http://mb.cloud.nifty.com/
 <br><br>
 * 下記のように表示されればOKです！
 
-.center[![SDK導入4](document-img/SDK導入4.png)]
+.center[![SDK導入4](document-img/SDK_introduction_4.png)]
 
 ---
 .footnote_right[
@@ -429,7 +429,7 @@ http://mb.cloud.nifty.com/
 <br>
 * APIキーはmBaaSのダッシュボード「アプリ設定」＞「基本」で確認できます
 
-.center[![SDKの初期化](document-img/SDKの初期化.png)]
+.center[![SDKの初期化](document-img/SDK_initialization.png)]
 
 
 ---
@@ -488,7 +488,7 @@ http://mb.cloud.nifty.com/
 完成イメージ（再掲）
 
 <br>
-.center[![完成イメージ2](document-img/完成イメージ2.png)]
+.center[![完成イメージ2](document-img/complete_image_2.png)]
 
 ---
 .footnote_right[
@@ -574,7 +574,7 @@ mBaaSのSDKを使う場合は必ず行う処理です
 ### 5. 動作確認②
 * 再びMonacaデバッガーを起動し、MonacaとmBaaSの連携を確認しましょう
 
-.center[![動作確認②-1](document-img/動作確認②-1.png)]
+.center[![動作確認②-1](document-img/check2-1.png)]
 
 * ☆をタップしたら、mBaaSのダッシュボードを確認しましょう
 
@@ -590,7 +590,7 @@ mBaaSのSDKを使う場合は必ず行う処理です
 * 下図のように情報が保存されます
  * １つのお気に入り登録に対して、１つのデータが保存されます。したがって、☆の数が増えると、mBaaSに保存されたデータも増えます。
 
-.center[![動作確認②-2](document-img/動作確認②-2.png)]
+.center[![動作確認②-2](document-img/check2-2.png)]
 
 * 個人（端末）を表す`uuid`と記事の`URL`が登録されていることが確認できます
 
@@ -689,7 +689,7 @@ __「プッシュ通知を始めよう！」__
 ## 本日の資料はこちらから入手できます
 Monacaとニフティクラウド mobile backendを使うことで、**既存のWebコンテンツも簡単にスマホアプリ化することが可能** です。
 
-.center[![Webコンテンツのスマホアプリ化イメージ](document-img/Webコンテンツのスマホアプリ化イメージ.png)]
+.center[![Webコンテンツのスマホアプリ化イメージ](document-img/WebContentsApp.png)]
 .center[
 __.size_large_20[https://goo.gl/aEvQma]__
 ]
