@@ -682,6 +682,18 @@ __「プッシュ通知を始めよう！」__
 ]
 
 ---
+.footnote_right[
+概要
+]
+
+## 本日の資料はこちらから入手できます
+Monacaとニフティクラウド mobile backendを使うことで、**既存のWebコンテンツも簡単にスマホアプリ化することが可能** です。
+
+.center[![Webコンテンツのスマホアプリ化イメージ](document-img/Webコンテンツのスマホアプリ化イメージ.png)]
+.center[
+__.size_large_20[https://goo.gl/aEvQma]__
+]
+---
 layout: true
 class: center, middle, inverse_sub
 ---
