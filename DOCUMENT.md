@@ -49,7 +49,7 @@ Monacaとニフティクラウド mobile backendを使うことで、**既存の
 .center[
 __▼ 資料はこちらから入手できます ▼__
 
-__.size_large_18[https://goo.gl/aEvQma]__
+__.size_large_18[https://goo.gl/kVmQgR]__
 ]
 
 ---
@@ -687,7 +687,7 @@ Monacaとニフティクラウド mobile backendを使うことで、**既存の
 
 .center[![Webコンテンツのスマホアプリ化イメージ](document-img/WebContentsApp.png)]
 .center[
-__.size_large_20[https://goo.gl/aEvQma]__
+__.size_large_20[https://goo.gl/kVmQgR]__
 ]
 ---
 layout: true
