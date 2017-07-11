@@ -3,10 +3,10 @@ layout: true
 class: center, middle, inverse
 ---
 # <span style="font-size: 30%">【Monaca × ニフティクラウド mobile backend】</span><br>Webコンテンツを<br>スマホアプリ化をしよう！
-ニフティ株式会社
+富士通クラウドテクノロジーズ株式会社
 
 .footnote[
-20161215
+20161215作成 (20170718更新)
 ]
 
 ---
@@ -18,26 +18,6 @@ class: center, middle, inverse_sub
 ---
 layout: false
 
-## 本セミナーについて
-
-.size_large_13[
-### Monaca×mBaaS共催セミナー(全５回)
-
-* 第１回　11/24（木）
- * __mBaaS基礎講座__
-* 第２回　12/15（木）
- * __Webコンテンツをスマホアプリ化しよう！__ ![star](document-img/star.png)
-* 第３回　1/19 （木）
- * __プッシュ通知を始めよう！__
-* 第４回　未定
- * 2月中旬開催予定
-* 第５回　未定
- * 3月上旬開催予定
-]
-
-
-
----
 .footnote_right[
 概要
 ]
@@ -46,11 +26,7 @@ layout: false
 Monacaとニフティクラウド mobile backendを使うことで、**既存のWebコンテンツも簡単にスマホアプリ化することが可能** です。ここではその手順を解説します。
 
 .center[![Webコンテンツのスマホアプリ化イメージ](document-img/WebContentsApp.png)]
-.center[
-__▼ 資料はこちらから入手できます ▼__
 
-__.size_large_18[https://goo.gl/kVmQgR]__
-]
 
 ---
 .footnote_right[
@@ -660,39 +636,36 @@ layout: false
 
 ---
 .size_large_13[
-### お知らせ<br>第３回Monaca×mBaaS共催セミナー
+### お知らせ<br>次回開催 Monaca×mBaaS 共催セミナー
 ]
 .center[
 .size_large_13[
-2017年1月19日(木)開催予定
-]
-.size_large_20[
-__「プッシュ通知を始めよう！」__
+2017年8月22日(火)開催予定<br>__「Monacaとクラウドデータベースを連携してみよう！」__
 ]
 ]
 
 .left-column[
-* Monacaで作成したアプリにプッシュ通知を組み込む方法をご案内します
-* Monaca×mBaaSで高速プッシュ通知機能導入を体験いただけます
+* Monacaで作成した「お問い合わせフォーム」アプリから情報をクラウドデータベースに保存/全件取得/条件検索を行い管理してみましょう。
+* 簡単な操作でクラウドデータベースをご体験いただけます。
 ]
 .right-column[
 .center[
-![push](document-img/push.png)
+![demo](document-img/demo.png)
 ]
 ]
 
 ---
-## 本日の資料はこちらから入手できます
-Monacaとニフティクラウド mobile backendを使うことで、**既存のWebコンテンツも簡単にスマホアプリ化することが可能** です。
+## 本日の資料配布について
+アンケートをご回答いただいた方に資料URLをお送りします。ご協力をお願いします。
+
+### 配布予定資料「Webコンテンツのスマホアプリ化」
 
 .center[![Webコンテンツのスマホアプリ化イメージ](document-img/WebContentsApp.png)]
-.center[
-__.size_large_20[https://goo.gl/kVmQgR]__
-]
+
 ---
 layout: true
 class: center, middle, inverse_sub
 ---
 .center[
-## ニフティとなら、きっとかなう。<br>With Us, You Can.
+## ご清聴ありがとうございました！
 ]
